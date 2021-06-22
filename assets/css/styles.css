@@ -9,10 +9,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-body:focus {
-  outline-color: #ba181b !important;
-}
-
 .divider {
   padding: 20px 0;
 }
