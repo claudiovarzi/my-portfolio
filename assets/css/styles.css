@@ -7,7 +7,10 @@
 body {
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
-  outline: none!important;
+}
+
+body:focus {
+  outline: none !important;
 }
 
 .divider {
