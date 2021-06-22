@@ -36,11 +36,6 @@ nav {
   text-transform: uppercase;
 }
 
-.menu a:hover {
-  color: #ba181b;
-  font-weight: 400;
-  }
-
 .shortcut {
   display: none;
 }
@@ -442,6 +437,13 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
     margin: 30px auto;
+  }
+  
+  @media (hover: hover) {
+    .menu a:hover {
+      color: #ba181b;
+      font-weight: 400;
+    }
   }
   
   /* About End */
