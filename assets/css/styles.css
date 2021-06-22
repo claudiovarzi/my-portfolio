@@ -439,12 +439,12 @@ nav {
     margin: 30px auto;
   }
   
-  @media (hover: hover) {
-     a:hover {
-      color: #ba181b;
-      font-weight: 400;
-    }
-  }
-  
   /* About End */
 }
+
+@media (hover: hover) {
+    a:hover {
+    color: #ba181b;
+    font-weight: 400;
+  }
+ }
