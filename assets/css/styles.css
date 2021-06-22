@@ -199,11 +199,6 @@ nav {
   letter-spacing: 1px;
 }
 
-.button:hover{
-  color: #fff;
-  background-color: #8c1c13;
-}
-
 /* Contact End*/
 
 /* Footer */
@@ -440,4 +435,15 @@ nav {
   }
   
   /* About End */
+}
+
+@media (hover: hover) {
+  .menu a:hover {
+    color: #ba181b;
+    font-weight: 400;
+  }
+  .button:hover {
+    color: #fff;
+    background-color: #8c1c13;
+  }
 }
