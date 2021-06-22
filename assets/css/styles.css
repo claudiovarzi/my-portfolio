@@ -9,7 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-header, main, section, footer {
+header:focus, main:focus, section:focus, footer:focus {
   outline: none !important;
 }
 
