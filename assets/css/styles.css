@@ -36,6 +36,11 @@ nav {
   text-transform: uppercase;
 }
 
+.menu a:hover {
+    color: #ba181b;
+    font-weight: 400;
+}
+
 .shortcut {
   display: none;
 }
@@ -199,7 +204,7 @@ nav {
   letter-spacing: 1px;
 }
 
-.button:hover{
+.button:hover {
   color: #fff;
   background-color: #8c1c13;
 }
