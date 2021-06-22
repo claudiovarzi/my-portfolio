@@ -36,6 +36,11 @@ nav {
   text-transform: uppercase;
 }
 
+.menu a:hover {
+  color: #ba181b;
+  font-weight: 400;
+  }
+
 .shortcut {
   display: none;
 }
@@ -427,11 +432,6 @@ nav {
     margin: 0 auto;
   }
   
-  .menu a:hover {
-  color: #ba181b;
-  font-weight: 400;
-  }
-
   /* Navbar End*/
 
   /* About */
