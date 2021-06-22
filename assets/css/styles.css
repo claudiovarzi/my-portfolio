@@ -443,7 +443,7 @@ nav {
 }
 
 @media (hover: hover) {
-    a:hover {
+    .menu a:hover, .cta a:hover, .profile a:hover {
     color: #ba181b;
     font-weight: 400;
   }
