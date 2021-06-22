@@ -441,10 +441,3 @@ nav {
   
   /* About End */
 }
-
-@media (hover: hover) {
-  .menu a:hover {
-    color: #ba181b;
-    font-weight: 400;
-  }
-}
