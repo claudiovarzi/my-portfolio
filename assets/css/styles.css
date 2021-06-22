@@ -13,10 +13,6 @@ body {
   padding: 20px 0;
 }
 
-.spacer {
-  padding-top: 10vh;
-}
-
 h2 {
   font-weight: 300;
   letter-spacing: 1px;
@@ -76,6 +72,7 @@ nav {
   font-size: 50px;
   color: white;
   text-align: center;
+  padding-top: 0;
   margin-bottom: 10px;
   letter-spacing: 20px;
 }
@@ -86,23 +83,6 @@ nav {
   font-size: 25px;
   letter-spacing: 10px;
   text-align: center;
-}
-
-.button {
-  display: inline-block;
-  padding: 20px 30px;
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 15px;
-  text-decoration: none;
-  transition: 0.3s;
-  color: white;
-  font-weight: 100;
-  letter-spacing: 1px;
-}
-
-.button:hover {
-  background-color: #260701;
 }
 
 /* Home End */
@@ -160,15 +140,12 @@ nav {
 
 .skills {
   background-color: #333;
+  height: auto;
+  padding-bottom: 15vh;
 }
 
 .skills .title {
   color: #fff;
-  padding: 50px 0;
-}
-
-.skills {
-  height: auto;
   padding-bottom: 50px;
 }
 
@@ -215,12 +192,20 @@ nav {
   font-weight: 300;
 }
 
-.cta .button {
+.button {
+  display: inline-block;
+  padding: 20px 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s;
   color: black;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
-.cta .button:hover{
+.button:hover{
   color: #fff;
   background-color: #8c1c13;
 }
@@ -330,11 +315,6 @@ nav {
 
   /* Home */
 
-  .headline {
-    justify-content: flex-start;
-    padding-top: 50px;
-  }
-
   .headline h1 {
     font-size: 40px;
     letter-spacing: 5px;
@@ -343,10 +323,6 @@ nav {
   .headline h2 {
     font-size: 20px;
     letter-spacing: 5px;
-  }
-
-  .button {
-    padding: 15px 20px;
   }
 
   /* Home End*/
@@ -363,6 +339,10 @@ nav {
 
   .slogan {
     font-size: 20px;
+  }
+
+  .button {
+    padding: 15px 20px;
   }
 
   /* Contacts End*/
@@ -402,10 +382,6 @@ nav {
     letter-spacing: 10px;
   }
 
-  .button {
-    padding: 20px 30px;
-  }
-
   /* Home End */
 
   /* About */
@@ -432,6 +408,14 @@ nav {
   }
 
   /* Skills End */
+
+  /* Contacts */
+
+  .button {
+    padding: 20px 30px;
+  }
+
+  /* Contacts End */
 }
 
 /*Desktop Styles*/
