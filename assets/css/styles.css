@@ -7,10 +7,7 @@
 body {
   background-color: #fff;
   font-family: 'Montserrat', sans-serif;
-}
-
-header:focus, main:focus, section:focus, footer:focus {
-  outline: none !important;
+  outline-color: #ba181b;
 }
 
 .divider {
