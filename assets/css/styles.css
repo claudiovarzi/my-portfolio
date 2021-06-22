@@ -36,10 +36,13 @@ nav {
   text-transform: uppercase;
 }
 
-.menu a:hover,
-.menu  {
+.menu a:hover {
   color: #ba181b;
   font-weight: 400;
+}
+
+menu a:active {
+  color: #fff;
 }
 
 .shortcut {
